@@ -1,0 +1,12 @@
+{
+  "title": "Thiết kế dữ liệu",
+  "pages": [
+    "index",
+    "schema-design-principles",
+    "embedding-vs-referencing",
+    "relationships",
+    "schema-validation",
+    "polymorphic-data",
+    "data-modeling-patterns"
+  ]
+}

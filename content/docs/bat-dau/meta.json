@@ -1,0 +1,11 @@
+{
+  "title": "Bắt đầu",
+  "pages": [
+    "index",
+    "cai-dat-local",
+    "mongodb-atlas",
+    "mongosh-co-ban",
+    "mongodb-compass",
+    "crud-dau-tien"
+  ]
+}

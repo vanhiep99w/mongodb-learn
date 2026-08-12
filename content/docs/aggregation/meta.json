@@ -1,0 +1,12 @@
+{
+  "title": "Aggregation Framework",
+  "pages": [
+    "index",
+    "aggregation-pipeline",
+    "match-project-sort-group",
+    "unwind-va-array",
+    "lookup-va-graphlookup",
+    "facet-bucket-window",
+    "toi-uu-aggregation"
+  ]
+}

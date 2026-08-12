@@ -1,0 +1,12 @@
+{
+  "title": "Indexes và hiệu năng truy vấn",
+  "pages": [
+    "index",
+    "index-co-ban",
+    "compound-index",
+    "multikey-text-geospatial",
+    "unique-partial-ttl",
+    "explain-query-plan",
+    "toi-uu-truy-van"
+  ]
+}

@@ -1,0 +1,34 @@
+@import 'tailwindcss';
+@import 'fumadocs-ui/css/neutral.css';
+@import 'fumadocs-ui/css/preset.css';
+
+html,
+:root {
+  scrollbar-gutter: stable;
+  --fd-layout-width: 100% !important;
+}
+
+html > body[data-scroll-locked] {
+  margin-right: 0 !important;
+  --removed-body-scroll-bar-size: 0px !important;
+}
+
+/*
+ * Use the real five-column grid from the current ejected Fumadocs layout,
+ * but remove centered outer spacer columns and let the article use 1fr.
+ * --fd-sidebar-col changes to 0 when collapsed, so the article reclaims it.
+ */
+#nd-docs-layout {
+  padding-inline: 0.5rem;
+  grid-template:
+    'sidebar sidebar header toc toc'
+    'sidebar sidebar toc-popover toc toc'
+    'sidebar sidebar main toc toc' 1fr /
+    0 var(--fd-sidebar-col) minmax(0, 1fr) var(--fd-toc-width) 0 !important;
+}
+
+@media (min-width: 768px) {
+  #nd-docs-layout {
+    padding-inline: 0.75rem;
+  }
+}

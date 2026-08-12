@@ -1,0 +1,14 @@
+{
+  "title": "Bảo mật và production",
+  "pages": [
+    "index",
+    "authentication-rbac",
+    "network-tls-encryption",
+    "backup-restore",
+    "monitoring",
+    "capacity-planning",
+    "performance-tuning",
+    "upgrade-va-fcv",
+    "production-checklist"
+  ]
+}

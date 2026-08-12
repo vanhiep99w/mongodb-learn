@@ -1,0 +1,13 @@
+{
+  "title": "Replication và sharding",
+  "pages": [
+    "index",
+    "replica-set",
+    "election-failover",
+    "replica-set-operations",
+    "sharding-architecture",
+    "chon-shard-key",
+    "chunk-balancer",
+    "resharding-va-operations"
+  ]
+}
